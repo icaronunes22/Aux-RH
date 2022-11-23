@@ -16,7 +16,23 @@ btn.addEventListener("click", function(e) {
 console.log(value);
 
 });
+salarioBasico = 1212 
+salarioEfetivo = 1450
+salarioChefeDeEquipe = 2312
+salarioSubGerente = 3500
+salarioGerente = 5320
+salarioDiretor = 7580
+salarioPresidente = 11300
 
+cargoAprendiz = salarioBasico
+maximo = 50%
+nivelUm > 20%
+nivelDois > 30%
+nivelTres > 40%
+nivelQuatro > 50%
+nivelQuinto = maximo
+
+SalariosPadroes []
 
 /*let valor = salarioTotal;
 let texto = valor.toLocaleString("pt-BR", 
