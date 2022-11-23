@@ -1,0 +1,42 @@
+Baiano Vitor: A empresa rangel e associados buscou você para criar um sistema de gestão de pessoas. Esse sistema será responsável pelo controle de ponto e controle financeiro da empresa.
+
+Na primeira parte o sistema deve conseguir realizar o cadastro do funcionário com os seguintes Campos:
+
+
+Nome
+Endereço 
+Cpf(válido) 
+Cargo
+Salário 
+Nível salarial (esse ponto será descrito mais para frente) de 1 a 5
+
+O sistema deverá conseguir realizar ajustes no salário do funcionário, porém o ajuste é de acordo com seu nível.
+
+Ex: se um funcionário é nível 2 de salário e ganha 3mil ele irá para o nível 3 e terá o reajuste de acordo com seu nível.
+
+Reajuste por níveis
+Do 1 para o 2: 20%
+2 para o 3: 30%
+3 para o 4: 40%
+4 para o 5: 50%
+
+Caso o funcionário seja o nível 5 e for necessário c…
+ Baiano Vitor: Controle de ponto:
+
+Deve verificar se é dia da semana(segunda a sexta) e se o funcionário chegou ou não no horário que é as 8:00
+ Baiano Vitor: Caso o funcionário não tenha chegado no horário, sistema deve apontar a hora de saída(8 horas de trabalho + 2 de almoço)
+Ex: funcionário chegou as 09, terá de trabalhar até as 19 horas pra cumprir sua carga horária, considerando 2 horas de almoço.
+ Baiano Vitor: Tolerância de 10 minutos de atraso
+ Baiano Vitor: Caso o funcionário chegue dentro da tolerância exibir a mensagem 
+“Bom trabalho”
+Caso contrário 
+Olá, você chegou atrasado. Deve sair às: (informar horário de saída)
+ Baiano Vitor: Resumindo 
+
+Cadastro de funcionários 
+Ajuste de salário 
+Bater ponto.
+ Baiano Vitor: Deve ser possível editar os campos do usuário, exceto cpf
+ Baiano Vitor: *funcionario
+ Baiano Vitor: Deve ser possível excluir funcionário.
+ Baiano Vitor: Preparar sistema para persistir no banco de dados, nessa primeira etapa ainda não é necessário
